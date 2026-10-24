@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_collections"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Colecciones de usuarios" />
+        <item
+            android:id="@+id/nav_savedCollections"
+            android:icon="@drawable/save"
+            android:title="Colecciones guardadas" />
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/cerrar_sesion"
+            android:title="Cerrar sesión" />
+    </group>
+</menu>
